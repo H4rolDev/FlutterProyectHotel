@@ -46,7 +46,7 @@ class AppRoutes {
     cleaningHistory: (context) => CleaningHistoryScreen(),
     cleaningHistoryView: (context) => CleaningHistoryViewScreen(),
     profile: (context) => ProfileScreen(),
-    // registerEmployeeScreen : (context) => RegisterEmployeeScreen(),
+    registerEmployeeScreen : (context) => RegisterEmployeeScreen(),
     cleaningTips: (context) => CleaningTipsScreen(),
   };
 }

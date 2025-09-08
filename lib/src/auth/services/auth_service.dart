@@ -24,6 +24,9 @@ class AuthService {
 
       final responseBody = json.decode(response.body);
 
+      print("Status: ${response.statusCode}");
+      print("Body: ${response.body}");
+
       if (response.statusCode == 200) {
         await _saveUserData(responseBody);
         return {

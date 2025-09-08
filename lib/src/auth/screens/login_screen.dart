@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
       if (employeeId != null && employeeId > 0) {
         Navigator.pushReplacementNamed(context, '/home');
       } else {
-        Navigator.pushReplacementNamed(context, '/register-employee');
+        Navigator.pushReplacementNamed(context, '/home');
       }
     } else if (result['status'] == 401) {
       setState(() {
@@ -92,7 +92,7 @@ class _LoginScreenState extends State<LoginScreen> {
       if (employeeId != null && employeeId > 0) {
         Navigator.pushReplacementNamed(context, '/home');
       } else {
-        Navigator.pushReplacementNamed(context, '/register-employee');
+        Navigator.pushReplacementNamed(context, '/home');
       }
     }
   }
